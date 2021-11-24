@@ -1,0 +1,20 @@
+.container {
+  background-color: rgb(255,239,178);
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #f9f9f9;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.3);
+  width: 65rem;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: row;
+
+  margin: 1rem;
+}

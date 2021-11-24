@@ -1,0 +1,18 @@
+.card-info {
+  height: 100%;
+  width: 65%;
+
+  color: #484946;
+  padding: 1.5rem;
+}
+
+.card-info__detail-box {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.card-info__detail {
+  width: 50%;
+  margin-right: 1rem;
+}

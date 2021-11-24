@@ -1,0 +1,15 @@
+.card-info__detail-group {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.card-info__detail-label {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.card-info__detail-data {
+  border-bottom: .2rem solid #5bc6ac;
+  width: 100%;
+  font-size: 1.45rem;
+}
