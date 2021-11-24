@@ -7,7 +7,7 @@ import CardSocial from "./CardSocial";
 function CardInfo(props) {
   return (
     <div class="card-info">
-      <CardID name={props.items[0].name} batch={props.items[0].batch}></CardID>
+      <CardID name={props.items[0].name} batch={props.items[0].batch} />
 
       <div class="card-info__detail-box">
         <CardData
@@ -23,7 +23,11 @@ function CardInfo(props) {
           label2={props.items[1].label4}
         />
       </div>
-      <CardSocial twitter={props.items[2].twitter} github={props.items[2].github} instagram={props.items[2].instagram}/>
+      <CardSocial
+        twitter={props.items[2].twitter}
+        github={props.items[2].github}
+        instagram={props.items[2].instagram}
+      />
     </div>
   );
 }

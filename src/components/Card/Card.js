@@ -5,11 +5,9 @@ import "./Card.css";
 
 function Card(props) {
   return (
-    <div className="container">
-      <div className="card">
-        <CardAvatar/>
-        <CardInfo items={props.items} />
-      </div>
+    <div className="card">
+      <CardAvatar avatar={props.items[3].avatar} />
+      <CardInfo items={props.items} />
     </div>
   );
 }
