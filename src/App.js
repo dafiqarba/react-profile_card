@@ -11,26 +11,20 @@ function App() {
       education: "T. Telekomunikasi",
       mobile: "085858727957",
       skills: "HTML, CSS, JS, ReactJS",
-    },
-    {
+      avatar: avatar,
+      twitter: "https://twitter.com/dafiqarba",
+      github: "https://github.com/dafiqarba",
+      instagram: "https://instagram.com/dafiqarba",
       label1: "Email",
       label2: "Nomor HP",
       label3: "Pendidikan",
       label4: "Keahlian",
     },
-    {
-      twitter: "https://twitter.com/dafiqarba",
-      github: "https://github.com/dafiqarba",
-      instagram: "https://instagram.com/dafiqarba",
-    },
-    {
-      avatar: avatar,
-    },
   ];
 
   return (
     <div className="container">
-      <Card items={data} />
+      <Card detail={data[0]} />
     </div>
   );
 }

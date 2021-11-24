@@ -6,8 +6,8 @@ import "./Card.css";
 function Card(props) {
   return (
     <div className="card">
-      <CardAvatar avatar={props.items[3].avatar} />
-      <CardInfo items={props.items} />
+      <CardAvatar image={props.detail.avatar} />
+      <CardInfo detail={props.detail} />
     </div>
   );
 }
