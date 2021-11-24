@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Usage
 Before you can run this react-app in your machine, run the following command to download and install all depedencies.
 ### `npm install`
-Then you can runn all command that available in `Available Scripts` section.
+Then you can run all command that available in `Available Scripts` section.
 
 ## Available Scripts
 
